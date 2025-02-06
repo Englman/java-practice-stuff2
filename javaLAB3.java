@@ -20,11 +20,7 @@ public class javaLAB3 {
             return (hoursWorked - overTimeHours) * basePay + overTimeHours * basePay * 1.5;
         }
     }
-
     // END OF THE TASK 1 CLASS
-    // TASK 2 CLASS
-
-    // END OF THE TASK 2 CLASS
 
     public static void main(String[] args) {
         // TASK 1
@@ -96,8 +92,11 @@ public class javaLAB3 {
 
             System.out.println("Then there goes: " + names[i] + " with the time " + times[i] + "\n");
         }
+
+        // END OF THE TASK 2
     }
 
+    //TASK 2 METHOD
     public static void sortStudents(String[] names, int[] times){
         int n = times.length;
         for(int i = 0; i < n; i++){
@@ -116,4 +115,5 @@ public class javaLAB3 {
             }
         }
     }
+    // END OF THE TASK 2 METHOD
 }
